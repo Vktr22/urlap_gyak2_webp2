@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form>
+            <fieldset class="kekdoboz" id="doboz1">
+                <legend class="regiszt">regisztráció</legend>
+                <label for="fname">felhasználónév*</label><br>
+                <input type="text" id="fname" name="fname" value="csak ékezetmentes betűk"><br>
+                <label for="lname">Jelszó*</label><br>
+                <input type="text" id="lname" name="lname" value="min. 3 karakter"><br>
+                <label for="mail">e-mail cím*</label><br>
+                <input type="text" id="mail" name="mail" value="vmi@vmi.hu">
+            </fieldset>
+
+            <fieldset class="kekdoboz" id="doboz2">
+                <legend class="szul">születés</legend>
+                <label for="szuld">születési dátum</label>
+                <input type="date" id="szuld" name="szuld">
+
+                <fieldset class="picidoboz" id="doboz3">
+                    <legend class="szemely">személyes</legend>
+                    <input type="checkbox" id="nyelv" name="nyelv" value="angol">
+                    <label for="nyelv">angol</label><br>
+                    <input type="checkbox" id="nyelv2" name="nyelv2" value="német">
+                    <label for="nyelv2">német</label><br><br>
+
+                    <label for="szak">Választott szak:</label>
+                    <select name="szak" id="szak">
+                        <option value="szfa2">SZFA2</option>
+                        <option value="szfa1">SZFA1</option>
+                        <option value="szfb">SZFB</option>
+                        <option value="iru">IRU</option>
+                    </select><br><br>
+
+                    <input type="radio" id="ferfi" name="ferfi" value="férfi">
+                    <label for="ferfi">férfi</label><br>
+                    <input type="radio" id="no" name="no" value="nő">
+                    <label for="no">nő</label><br>
+                    <br>
+                </fieldset>
+                <input class="veglegesit" type="submit" value="regisztráció">
+
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

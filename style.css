@@ -1,0 +1,42 @@
+main{
+    background-color: rgb(221, 224, 224);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 50px;
+    padding-bottom: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.kekdoboz{
+    background-color: rgb(190, 223, 239);
+    border-color: rgb(53, 87, 162);
+}
+
+.picidoboz{
+    background-color: white;
+    border-color: rgb(53, 87, 162);
+}
+
+.regiszt, .szul{
+    background-color: rgb(60, 200, 60);
+    color: white;
+    border: 1px solid;
+    border-color: green;
+}
+
+.szemely{
+    background-color: rgb(102, 142, 227);
+    color: rgb(16, 28, 68);
+}
+
+.veglegesit{
+    background-color:  rgb(60, 200, 60);
+    color: white;
+    border: 1px solid;
+    border-color: green;
+}
+
+#doboz1{
+    margin-bottom: 50px;
+}
